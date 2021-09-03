@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+
+#The colors of the life
+
+
+from colorama import *
+init()
+
+print(repr($1)[1:-1])
+
+
+
+
+red=$(color Fore.RED)
+yellow=$(color Fore.YELLOW)
+cyan=$(color Fore.CYAN)
+reset=$(color Fore.RESET)
+
+echo -e "${red}HOLA"
+echo -e "${yellow}MUNDO"
+echo -e "${cyan}BASH${reset}"
